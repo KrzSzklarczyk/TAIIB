@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi.csproj", "{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccesLayer", "..\DataAccesLayer\DataAccesLayer.csproj", "{D725F37F-4E3D-486A-A52D-71A101B1B708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{B9253BE0-5486-468C-941B-E15CE421A817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D725F37F-4E3D-486A-A52D-71A101B1B708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D725F37F-4E3D-486A-A52D-71A101B1B708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D725F37F-4E3D-486A-A52D-71A101B1B708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D725F37F-4E3D-486A-A52D-71A101B1B708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9253BE0-5486-468C-941B-E15CE421A817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9253BE0-5486-468C-941B-E15CE421A817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9253BE0-5486-468C-941B-E15CE421A817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9253BE0-5486-468C-941B-E15CE421A817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E581859-734E-434D-A950-EDE5162B9B39}
+	EndGlobalSection
+EndGlobal
