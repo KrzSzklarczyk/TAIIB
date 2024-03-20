@@ -13,7 +13,8 @@ namespace Model
         [Key]
         public int Id { get; set; }
         public virtual IEnumerable<BasketPosition>? BasketId { get; set; }
-        [MaxLength(30), Required]
+        public virtual IEnumerable<OrderPosition>? OrderId { get; set; }
+        [MaxLength(30), Required]   
         public string? Name { get; set; }
         public double Price { get; set; }
         [MaxLength(30), Required]

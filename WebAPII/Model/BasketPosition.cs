@@ -17,7 +17,7 @@ namespace Model
         public User? User { get; set; }
         public int Amount { get; set; }
 
-        public void Configure(EntityTypeBuilder<BasketPosition> builder)
+        public void Configure(EntityTypeBuilder <BasketPosition> builder)
         {
             builder
                 .HasOne(x => x.Product)

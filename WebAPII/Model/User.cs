@@ -6,6 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+public enum Type
+{
+    Admin, User
+}
 namespace Model
 {
     public class User
@@ -18,7 +22,7 @@ namespace Model
         public string? Login { get; set; }
         [MaxLength(30), Required]
         public string? Password { get; set; }
-        public Type? Type { get; set; }
+        public Type Type { get; set; }
         public bool IsActive { get; set; }
 
     }
