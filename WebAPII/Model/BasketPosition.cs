@@ -8,16 +8,26 @@ namespace Model
     public class BasketPosition : IEntityTypeConfiguration<BasketPosition>
     {
         [Key]
-        public int Id { get; set; }
-        [ForeignKey(nameof(Product))]
-        public Product? ProductId { get; set; }
-        [ForeignKey(nameof(User))]
-        public User? UserId { get; set; }
+        public int ID { get; set; }
+        public int ProductID { get; set; }
+        [ForeignKey(nameof(ProductID))]
+        public Product? Product { get; set; }
+        public int UserID { get; set; }
+        [ForeignKey(nameof(UserID))]
+        public User? User { get; set; }
         public int Amount { get; set; }
 
         public void Configure(EntityTypeBuilder<BasketPosition> builder)
         {
-            throw new NotImplementedException();
+            builder
+                .HasOne(x => x.Product)
+                .WithMany(x => x.BasketId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder
+                .HasOne(x => x.User)
+                .WithMany(x => x.BasketPositionsId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
