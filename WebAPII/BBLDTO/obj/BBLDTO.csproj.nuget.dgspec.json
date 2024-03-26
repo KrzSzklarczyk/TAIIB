@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj": {}
+    "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\BBLDTO\\BBLDTO.csproj": {}
   },
   "projects": {
-    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj": {
+    "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\BBLDTO\\BBLDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj",
+        "projectUniqueName": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\BBLDTO\\BBLDTO.csproj",
         "projectName": "BBLDTO",
-        "projectPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj",
+        "projectPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\BBLDTO\\BBLDTO.csproj",
         "packagesPath": "C:\\Users\\Zadymiator\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\obj\\",
+        "outputPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\BBLDTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zadymiator\\AppData\\Roaming\\NuGet\\NuGet.Config",

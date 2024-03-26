@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HS4dGVm54SkTtyu6ffG86D81K/Y4xUC4JTf4i6A9Pnu8mLn+Idku0FVZphmkiQs4mb3Etcw4R6/wuzAsEncUGw==",
+  "dgSpecHash": "HlpQbKI12Rc1i3KtzdC1lIK+lhNWEciDPBinN0ACsdLDe/YQ73qGi83ft+qiSsJcrmphUd0nMPGxO3PXSKXU8Q==",
   "success": true,
-  "projectFilePath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj",
+  "projectFilePath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zadymiator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Zadymiator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

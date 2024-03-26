@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\Model\\Model.csproj": {}
+    "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\Model\\Model.csproj": {}
   },
   "projects": {
-    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\Model\\Model.csproj": {
+    "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Zadymiator\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zadymiator\\AppData\\Roaming\\NuGet\\NuGet.Config",

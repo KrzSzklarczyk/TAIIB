@@ -3463,11 +3463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\webapi\\webapi.csproj",
+      "projectPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\webapi\\webapi.csproj",
       "packagesPath": "C:\\Users\\Zadymiator\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\webapi\\obj\\",
+      "outputPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zadymiator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3485,8 +3485,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj": {
-              "projectPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj"
+            "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj": {
+              "projectPath": "C:\\Users\\Zadymiator\\source\\repos\\TAIIB\\WebAPII\\DataAccesLayer\\DataAccesLayer.csproj"
             }
           }
         }
