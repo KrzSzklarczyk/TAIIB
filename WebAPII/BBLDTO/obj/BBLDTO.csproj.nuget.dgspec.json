@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\TAIIB-main\\WebAPII\\BBLDTO\\BBLDTO.csproj": {}
+    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\TAIIB-main\\WebAPII\\BBLDTO\\BBLDTO.csproj": {
+    "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\TAIIB-main\\WebAPII\\BBLDTO\\BBLDTO.csproj",
+        "projectUniqueName": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj",
         "projectName": "BBLDTO",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\TAIIB-main\\WebAPII\\BBLDTO\\BBLDTO.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\TAIIB-main\\WebAPII\\BBLDTO\\obj\\",
+        "projectPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\BBLDTO.csproj",
+        "packagesPath": "C:\\Users\\Zadymiator\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual studio projekty\\TAIIB Lab\\WebAPII\\BBLDTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zadymiator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
