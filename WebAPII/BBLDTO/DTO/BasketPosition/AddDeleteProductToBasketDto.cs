@@ -9,9 +9,9 @@ namespace BBLDTO.DTO.BasketPosition
 {
     internal class AddDeleteProductToBasketDto
     {
-        public required int ID { get; init; }
+/*        public required int ID { get; init; }
         public required int ProductID { get; init; }
         public int? UserID { get; init; }
-        public required int Amount { get; init; }
+        public required int Amount { get; init; }*/
     }
 }
