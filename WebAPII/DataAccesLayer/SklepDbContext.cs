@@ -5,15 +5,22 @@ namespace DataAccesLayer
 {
     public class SklepDbContext : DbContext
     {
-        DbSet<Product> Products { get; set; }
-        DbSet<Product> Orders { get; set; }
-        DbSet<Product> Users { get; set; }
-        DbSet<Product> OrderPositions { get; set; }
-        DbSet<Product> BasketPositions { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Orders { get; set; }
+        public DbSet<Product> Users { get; set; }
+        public DbSet<Product> OrderPositions { get; set; }
+        public DbSet<Product> BasketPositions { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Sklepior;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-9N0R9EE\\SQLEXPRESS;Initial Catalog=Store;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            }
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(Product).Assembly);
         }
     }
 }

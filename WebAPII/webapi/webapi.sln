@@ -4,12 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi.csproj", "{ABB14C9F-6D83-4F3F-927B-B832B5F9203A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C65DF3FE-03D9-4675-9339-5B42FEA66DC0} = {C65DF3FE-03D9-4675-9339-5B42FEA66DC0}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccesLayer", "..\DataAccesLayer\DataAccesLayer.csproj", "{D725F37F-4E3D-486A-A52D-71A101B1B708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.DAL", "..\DataAccesLayer\WebApi.DAL.csproj", "{D725F37F-4E3D-486A-A52D-71A101B1B708}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "..\Model\Model.csproj", "{B9253BE0-5486-468C-941B-E15CE421A817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Model", "..\Model\WebApi.Model.csproj", "{B9253BE0-5486-468C-941B-E15CE421A817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBLDTO", "..\BBLDTO\BBLDTO.csproj", "{DDFC540A-756E-49D8-AB7E-D585D99A78A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.BLL_DTO", "..\BBLDTO\WebApi.BLL_DTO.csproj", "{DDFC540A-756E-49D8-AB7E-D585D99A78A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.BLL_EF", "..\WebApi.BLL_EF\WebApi.BLL_EF.csproj", "{C65DF3FE-03D9-4675-9339-5B42FEA66DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{DDFC540A-756E-49D8-AB7E-D585D99A78A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFC540A-756E-49D8-AB7E-D585D99A78A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFC540A-756E-49D8-AB7E-D585D99A78A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65DF3FE-03D9-4675-9339-5B42FEA66DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65DF3FE-03D9-4675-9339-5B42FEA66DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65DF3FE-03D9-4675-9339-5B42FEA66DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65DF3FE-03D9-4675-9339-5B42FEA66DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

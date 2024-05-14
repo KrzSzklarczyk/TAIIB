@@ -22,11 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj" />
+    <ProjectReference Include="..\BBLDTO\WebApi.BLL_DTO.csproj" />
+    <ProjectReference Include="..\DataAccesLayer\WebApi.DAL.csproj" />
+    <ProjectReference Include="..\WebApi.BLL_EF\WebApi.BLL_EF.csproj" />
   </ItemGroup>
 
 </Project>
