@@ -1,0 +1,8 @@
+<div class="product-grid">
+    <div *ngFor="let product of products" class="product-tile">
+      <img [src]="product.image" alt="{{ product.name }}">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.price | currency }}</p>
+    </div>
+  </div>
+  
